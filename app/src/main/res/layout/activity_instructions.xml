@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewInstructionsTitle"
+            android:layout_gravity="center_horizontal"
+            android:text="Instructions"
+            />
+    <TextView
+            android:id="@+id/textViewInstructionsText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Start server on PC (Server.jar)."
+            />
+    <TextView
+            android:id="@+id/textViewInstructionsText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2. Open client on smartphone."
+            />
+    <TextView
+            android:id="@+id/textViewInstructionsText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="3. Open 'Settings'."
+            />
+    <TextView
+            android:id="@+id/textViewInstructionsText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="4. Enter patien's name and server's IP."
+            />
+    <TextView
+            android:id="@+id/textViewInstructionsText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="5. Press 'Accept' button."
+            />
+    <TextView
+            android:id="@+id/textViewInstructionsText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="6. Now you can send photos to server."
+            />
+
+</LinearLayout>
